@@ -48,7 +48,7 @@ scrollReveal.reveal(`
     #sobre .title, #sobre .sobre-conteudo,
     #projetos .title, #projetos .card,
     #servicos .title, #servicos .card,
-    #skills .title, #skills 
+    #skills .title, #skills,
 `, { interval: 100 });
 
 

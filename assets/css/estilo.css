@@ -429,6 +429,9 @@ footer a {
     .introducao-img {
         display: none;
     }
+    footer .logo p {
+        font-size: .8rem;
+    }
     footer .social {
         margin-top: 2rem;
     }
