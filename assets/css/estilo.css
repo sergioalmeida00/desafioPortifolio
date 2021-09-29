@@ -259,6 +259,7 @@ p {
     font-size: 3rem;
     color: var(--color-green);
     margin-bottom: 2.5rem;
+    transition: 0.7s;
 }
 
 #servicos .card h2 {
@@ -283,6 +284,11 @@ p {
 #skills .card-skill i {
     font-size: 5rem;
     color: var(--color-green);
+    transition: .7s;
+}
+
+#skills .card-skill i:hover {
+    color: var(--color-whithe);
 }
 
 #skills .card-skill:hover {
