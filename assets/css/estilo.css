@@ -146,9 +146,14 @@ p {
     margin-bottom: 2.18rem;
 }
 
+.introducao-info p::after {
+    content: '|';
+    margin-left: .5rem;
+    animation: blink .7s infinite;
+}
+
 .introducao-info .buttons {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .introducao-info .buttons a {
@@ -200,8 +205,6 @@ p {
 
 
 /* SOBRE */
-
-#sobre {}
 
 #sobre p {
     text-align: justify;
@@ -348,6 +351,19 @@ footer a {
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
+}
+
+
+/* ANIMATIONS */
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 @media(max-width: 739px) {

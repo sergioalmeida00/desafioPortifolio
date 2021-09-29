@@ -1,6 +1,23 @@
 const btnMobile = document.querySelector('#btn-mobile');
 const ulNav = document.querySelector('nav ul');
-const links = document.querySelectorAll('nav ul li a')
+const links = document.querySelectorAll('nav ul li a');
+const titulo = document.querySelector('.introducao p');
+
+
+
+function typeWrite(elemento) {
+    const textArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textArray.forEach((letra, index) => {
+        setTimeout(() => {
+            elemento.innerHTML += letra;
+        }, 90 * index);
+    });
+
+}
+typeWrite(titulo)
+
+
 
 // Ao clicar no item do menu, escode o menu
 for (const link of links) {
