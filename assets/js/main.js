@@ -4,7 +4,7 @@ const links = document.querySelectorAll('nav ul li a');
 const titulo = document.querySelector('.introducao p');
 
 
-
+// RESPONSAVEL POR FAZER EFEITO typeWrite
 function typeWrite(elemento) {
     const textArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
@@ -15,9 +15,6 @@ function typeWrite(elemento) {
     });
 
 }
-typeWrite(titulo)
-
-
 
 // Ao clicar no item do menu, escode o menu
 for (const link of links) {
@@ -34,6 +31,7 @@ function topoScroll() {
         btnTopo.classList.remove('active');
     }
 }
+
 // MUDA A COR DA NAV AO ROLAR O SCROLL;
 function headerScroll() {
     const header = document.querySelector('header');
@@ -45,6 +43,7 @@ function headerScroll() {
         header.getElementsByClassName.color = 'red';
     }
 }
+
 // ADICIONA OU REMOVE A CLASS ACTIVE 
 function toggleMenu() {
     const btNav = document.querySelector('.menu-nav ul');
@@ -69,10 +68,10 @@ scrollReveal.reveal(`
     footer .logo, footer .social
 `, { interval: 100 });
 
-
-
 // FICA ESCUTANDO O EVENTO DE SCROLL E CHAMA AS FUNÇÕES 
 window.addEventListener('scroll', () => {
     headerScroll();
     topoScroll();
-})
+});
+// CHAMADA FUNÇÃO typeWrite
+typeWrite(titulo);
