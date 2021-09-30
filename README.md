@@ -14,13 +14,14 @@
 
 <h2>Autor</h2>
 <ul>
-<li>Linkdin - <a href="https://www.linkedin.com/in/sergioAlmeidaa">Sérgio Almeida</a></li>
+<li>Linkedin - <a href="https://www.linkedin.com/in/sergioAlmeidaa">Sérgio Almeida</a></li>
+<li>Link Page - <a href="https://www.linkedin.com/in/sergioAlmeidaa">Portifolio - Sérgio Almeida</a></li>
 </ul>
 
 <h2>Créditos</h2>
 
 <ul>
-<li><a href="https://www.linkedin.com/in/sergioAlmeidaa">Iuri Silva</a></li>
+<li><a href="https://sergioalmeida00.github.io/desafioPortifolio/">Iuri Silva</a></li>
 </ul>
 
 <h4 align="center">🚧 Projeto em Construção 🚧</h4>
